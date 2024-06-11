@@ -1,0 +1,10 @@
+/* .custom-header {
+  background-color: red;
+  padding-left: 1em;
+  padding-right: 1em;
+} */
+
+.prueba {
+  display: flex;
+  align-items: center;
+}
