@@ -3533,8 +3533,8 @@ details-disclosure > details {
 
 @font-face {
   font-family: "Good-Sans-Regular";
-  src: url("Good-Sans-Regular.woff2") format("woff2"),
-    url("Good-Sans-Regular.woff2") format("woff2");
+  src: url("Good-Sans-Regular.ttf") format("truetype"),
+    url("Good-Sans-Regular.ttf") format("truetype");
 }
 
 body,
@@ -3545,5 +3545,6 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Good-Sans-Regular" !important;
+  font-family: "Good-Sans-Regular", sans-serif !important;
+  color: #a33434 !important;
 }
