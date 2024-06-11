@@ -1,0 +1,80 @@
+{
+  "sections": {
+    "rich_text_mwGYeC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_k7LnrU": {
+          "type": "heading",
+          "settings": {
+            "heading": "TIENDA",
+            "heading_size": "h2"
+          }
+        },
+        "text_3fpkJB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Compra online y retirá en el local dentro de 48 hs. No contamos con servicio de entrega. <\/p>"
+          }
+        },
+        "text_9VDdpf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>↓ ↓ ↓ ↓<\/p>"
+          }
+        },
+        "text_3b3J9q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TODO  PANES  TORTAS  BOLLERÍA  MERCH<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_k7LnrU",
+        "text_3fpkJB",
+        "text_9VDdpf",
+        "text_3b3J9q"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 25,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_mwGYeC",
+    "featured_collection"
+  ]
+}
