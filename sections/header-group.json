@@ -4,6 +4,7 @@
   "sections": {
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
@@ -22,7 +23,6 @@
     },
     "custom_liquid_rGLbAj": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<header class=\"site-header\">\n    <div class=\"container\">\n  \n      <!-- Navigation -->\n      <nav class=\"site-navigation\">\n        <ul class=\"nav-menu\">\n          <li class=\"nav-item\">\n            <a href=\"{{ shop.url }}\" class=\"nav-link\">Home<\/a>\n          <\/li>\n          {% for link in linklists.main-menu.links %}\n            <li class=\"nav-item\">\n              <a href=\"{{ link.url }}\" class=\"nav-link\">{{ link.title }}<\/a>\n            <\/li>\n          {% endfor %}\n        <\/ul>\n      <\/nav>\n  \n      {% comment %} <!-- Search Bar -->\n      <div class=\"site-search\">\n        <form action=\"\/search\" method=\"get\" class=\"search-form\">\n          <input type=\"text\" name=\"q\" placeholder=\"Search\" class=\"search-input\">\n          <button type=\"submit\" class=\"search-button\">\n            <img src=\"{{ 'search-icon.png' | asset_url }}\" alt=\"Search\">\n          <\/button>\n        <\/form>\n      <\/div> {% endcomment %}\n\n      <!-- Logo -->\n      <div class=\"site-logo\">\n        <a href=\"{{ shop.url }}\">\n          <img src=\"{{ 'logo.png' | asset_url }}\" alt=\"{{ shop.name }}\">\n        <\/a>\n      <\/div>\n\n    <\/div>\n  <\/header>\n  \n  <!-- Styles (optional) -->\n  <style>\n    .site-header {\n      background: #FAF9F5;\n      padding: 20px 20px;\n    }\n    .container {\n      display: flex;\n      align-items: center;\n      {% comment %} justify-content: flex-start; {% endcomment %}\n    }\n    .site-logo img {\n      max-height: 50px;\n      margin-left: auto;\n    }\n    .site-navigation {\n      {% comment %} flex-grow: 1; {% endcomment %}\n      text-align: center;\n    }\n    .nav-menu {\n      list-style: none;\n      padding: 0;\n      margin: 0;\n      display: flex;\n      justify-content: center;\n    }\n    .nav-item {\n      margin: 0 10px;\n    }\n    .nav-link {\n      text-decoration: none;\n      color: #333;\n    }\n    .nav-link:hover {\n      text-decoration: underline;\n    }\n    .site-search {\n      position: relative;\n    }\n    .search-form {\n      display: flex;\n    }\n    .search-input {\n      padding: 5px;\n      border: 1px solid #ccc;\n    }\n    .search-button {\n      background: none;\n      border: none;\n      cursor: pointer;\n    }\n    .search-button img {\n      height: 20px;\n    }\n  <\/style>",
         "color_scheme": "",
