@@ -2437,7 +2437,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__heading-link {
   display: inline-block;
-  padding: 0.75rem;
+  padding: 0;
   text-decoration: none;
   word-break: break-word;
 }
@@ -3537,6 +3537,12 @@ details-disclosure > details {
     url("Good-Sans-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Libre-Caslon-Italic";
+  src: url("LibreCaslonText-Italic.ttf") format("truetype"),
+    url("LibreCaslonText-Italic.ttf") format("truetype");
+}
+
 body,
 p,
 a,
@@ -3547,4 +3553,8 @@ h4,
 h5 {
   font-family: "Good-Sans-Regular", sans-serif !important;
   color: #a33434 !important;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Safari y Chrome */
 }

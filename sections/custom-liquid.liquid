@@ -1,6 +1,6 @@
 {%- style -%}
   header {
-    padding: 0 82px;
+    padding: 1em 2em;
     display: flex;
     align-items: center;
   }
@@ -12,31 +12,59 @@
   nav ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 1em;
     padding: 0;
+    margin: 0;
+    font-size: 0.7em !important;
+    height: 13px !important;
+  }
+
+  nav ul li:nth-child(1) {
+    width: 40px;
+  }
+
+  nav ul li:nth-child(2) {
+    width: 49px;
+  }
+
+  nav ul li:nth-child(3) {
+    width: 72px;
   }
 
   nav ul li a {
-    font-size: 0.7em;
     text-decoration: none;
+    padding: 0 !important;
+  }
+
+  nav ul li a:hover {
+    font-family: 'Libre-Caslon-Italic', serif !important;
+    text-transform: lowercase;
+    font-size: 1.4em;
+    line-height: 0 !important;
   }
 
   .logo {
     margin-left: auto;
   }
+
+  .logo img {
+    width: 120px !important;
+    height: 34px !important;
+  }
+
 {%- endstyle -%}
 
 <header>
   <nav>
     <ul>
       <li>
-        <a href="/"> INICIO </a>
+        <a href="https://www.atelier.com.uy/"> INICIO </a>
       </li>
       <li>
-        <a href="/tienda"> TIENDA </a>
+        <a href="/"> TIENDA </a>
       </li>
       <li>
-        <a href="/contacto"> CONTACTO </a>
+        <a href="https://www.atelier.com.uy/contacto"> CONTACTO </a>
       </li>
       <li>
         <a
