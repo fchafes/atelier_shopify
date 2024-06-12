@@ -134,7 +134,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
   .page-width-desktop {
     max-width: var(--page-width);
-    padding: 0 5rem;
+    padding: 0 7rem;
   }
 }
 
@@ -3550,7 +3550,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+span {
   font-family: "Good-Sans-Regular", sans-serif !important;
   color: #a33434 !important;
 }
