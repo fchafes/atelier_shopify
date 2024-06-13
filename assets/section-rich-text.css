@@ -33,6 +33,9 @@
   .rich-text__blocks {
     max-width: 50rem;
   }
+  /* .rich-text__blocks :last-child p {
+    ACA ACCEDO A EL P DE FILTROS
+  } */
 }
 
 @media screen and (min-width: 990px) {
