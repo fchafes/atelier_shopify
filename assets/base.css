@@ -2532,7 +2532,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__icon span {
   height: 100%;
-  color: #FAF9F5 !important;
+  color: #faf9f5 !important;
 }
 
 .header__icon::after {
@@ -3562,6 +3562,10 @@ span {
 
 p {
   font-size: 0.9em;
+}
+
+.h1 {
+  font-size: 1.9em !important;
 }
 
 body::-webkit-scrollbar {
