@@ -3560,6 +3560,10 @@ span {
   color: #a33434 !important;
 }
 
+p {
+  font-size: 0.9em;
+}
+
 body::-webkit-scrollbar {
   display: none; /* Safari y Chrome */
 }
