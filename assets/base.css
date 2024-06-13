@@ -2077,7 +2077,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .cart-count-bubble {
   position: absolute;
-  background-color: rgb(var(--color-button));
+  background-color: #a33434;
   color: rgb(var(--color-button-text));
   height: 1.7rem;
   width: 1.7rem;
@@ -2532,6 +2532,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__icon span {
   height: 100%;
+  color: #FAF9F5 !important;
 }
 
 .header__icon::after {

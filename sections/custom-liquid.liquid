@@ -31,6 +31,7 @@
     align-items: baseline;
     padding-top: 30%;
     transition: left 0.4s ease-in-out;
+    z-index: 1000;
   }
 
   .menu-drawer-container.open {
@@ -136,6 +137,12 @@
       display: none; /* Inicialmente oculto en dispositivos móviles */
     }
   }
+
+  @media screen and (min-width: 990px) {
+    #cart-icon-bubble {
+      display: none;
+    }
+  }
 {%- endstyle -%}
 
 <nav class="menu-drawer-container">
@@ -156,7 +163,7 @@
 <header>
   <div class="menu-hamburger menu-toggle">
     <svg width="21" height="14" viewBox="0 0 18 12" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 12V10H18V12H0ZM0 7V5H18V7H0ZM0 2V0H18V2H0Z" fill="currentColor"/>
+      <path d="M0 11h18v1H0v-1zm0-5h18v1H0V6zm0-5h18v1H0V1z" fill="currentColor"/>
     </svg>
   </div>
   <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
@@ -169,7 +176,7 @@
     -%}
     <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
     {%- if cart != empty -%}
-      <div class="cart-count-bubble">
+      <div class="cart-count-bubble" style="color: white">
         {%- if cart.item_count < 100 -%}
           <span aria-hidden="true">{{ cart.item_count }}</span>
         {%- endif -%}
