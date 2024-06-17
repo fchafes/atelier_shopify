@@ -28,7 +28,7 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Seguir comprando",
+    "continue_shopping": "Volver a la tienda",
     "pagination": {
       "label": "Paginación",
       "page": "Página {{ number }}",
@@ -306,7 +306,7 @@
         "title": "¿Tienes una cuenta?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicia sesión<\/a> para finalizar tus compras con mayor rapidez."
       },
-      "estimated_total": "Total estimado",
+      "estimated_total": "Precio total",
       "new_estimated_total": "Nuevo total estimado"
     },
     "footer": {

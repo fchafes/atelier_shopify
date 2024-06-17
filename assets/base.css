@@ -752,6 +752,7 @@ summary::-webkit-details-marker {
 
 .title-wrapper-with-link .title {
   margin: 0;
+  font-family: 'Libre-Caslon-Italic', serif !important;
 }
 
 .title .link {
@@ -1180,7 +1181,7 @@ button.shopify-payment-button__button--unbranded,
   --border-offset: var(
     --buttons-border-offset
   ); /* reduce radius edge artifacts */
-  --border-opacity: calc(1 - var(--buttons-border-opacity));
+  /* --border-opacity: calc(1 - var(--buttons-border-opacity)); */
   border-radius: var(--buttons-radius-outset);
   position: relative;
 }
@@ -1252,7 +1253,7 @@ button.shopify-payment-button__button--unbranded {
   z-index: 1;
   border-radius: var(--buttons-radius);
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
-      rgba(var(--color-button-text), var(--border-opacity)),
+      #a33434,
     0 0 0 var(--buttons-border-width)
       rgba(var(--color-button), var(--alpha-button-background));
   transition: box-shadow var(--duration-short) ease;
@@ -1262,9 +1263,9 @@ button.shopify-payment-button__button--unbranded {
 .shopify-challenge__button:hover::after,
 .customer button:hover::after,
 .shopify-payment-button__button--unbranded:hover::after {
-  --border-offset: 1.3px;
+  --border-offset: 0.5px;
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
-      rgba(var(--color-button-text), var(--border-opacity)),
+      #a33434,
     0 0 0 calc(var(--buttons-border-width) + 1px)
       rgba(var(--color-button), var(--alpha-button-background));
 }
@@ -1875,7 +1876,7 @@ input[type="checkbox"] {
 
 /* component-quantity */
 .quantity {
-  color: rgba(var(--color-foreground));
+  color: #a33434;
   position: relative;
   width: calc(14rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
   display: flex;
@@ -1893,8 +1894,7 @@ input[type="checkbox"] {
   left: var(--inputs-border-width);
   border: 0.1rem solid transparent;
   border-radius: var(--inputs-radius);
-  box-shadow: 0 0 0 var(--inputs-border-width)
-    rgba(var(--color-foreground), var(--inputs-border-opacity));
+  box-shadow: 0 0 0 var(--inputs-border-width) #a33434;
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
