@@ -244,6 +244,7 @@ a.product__text {
 
 .product__title > * {
   margin: 0;
+  font-family: 'Libre-Caslon-Italic', serif !important;
 }
 
 .product__title > a {
