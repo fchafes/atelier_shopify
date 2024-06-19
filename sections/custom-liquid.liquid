@@ -99,7 +99,15 @@
   }
 
   .custom-nav ul li:nth-child(3) {
-    width: 72px;
+    width: 60px;
+  }
+
+  .custom-nav ul li:nth-child(3) a:hover {
+    letter-spacing: 1.5px;
+  }
+
+  .custom-nav ul li:nth-child(4) a:hover {
+    letter-spacing: 1.5px;
   }
 
   .custom-nav ul li a {
@@ -158,8 +166,8 @@
   <ul class="menu-items">
     <li><a href="https://www.atelier.com.uy/">Inicio</a></li>
     <li><a href="/">Tienda</a></li>
+    <li><a href="{{ routes.cart_url }}">Carrito</a></li>
     <li><a href="https://www.atelier.com.uy/contacto">Contacto</a></li>
-    <li><a href="https://www.instagram.com/ateliercasadepan" target="_blank">Instagram</a></li>
     <li><a href="#">:)</a></li>
   </ul>
 </nav>
@@ -198,10 +206,10 @@
         <a href="/"> TIENDA </a>
       </li>
       <li>
-        <a href="https://www.atelier.com.uy/contacto"> CONTACTO </a>
+        <a href="{{ routes.cart_url }}"> CARRITO </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/ateliercasadepan" target="_blank"> INSTAGRAM </a>
+        <a href="https://www.atelier.com.uy/contacto"> CONTACTO </a>
       </li>
     </ul>
   </nav>
