@@ -34,7 +34,7 @@
         "text_3b3J9q": {
           "type": "text",
           "settings": {
-            "text": "<p>TODO  <a href=\"\/collections\/panes\" title=\"\/collections\/panes\">PANES<\/a>  TORTAS  BOLLERÍA  MERCH<\/p>"
+            "text": "<p><a href=\"\/\" title=\"\/\">TODO<\/a>  <a href=\"\/collections\/panes\" title=\"\/collections\/panes\">PANES<\/a>  <a href=\"\/collections\/tortas\" title=\"\/collections\/tortas\">TORTAS<\/a>  <a href=\"\/collections\/bolleria\" title=\"\/collections\/bolleria\">BOLLERÍA<\/a>  <a href=\"\/collections\/merch\" title=\"\/collections\/merch\">MERCH<\/a><\/p>"
           }
         }
       },
