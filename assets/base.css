@@ -752,7 +752,7 @@ summary::-webkit-details-marker {
 
 .title-wrapper-with-link .title {
   margin: 0;
-  font-family: 'Libre-Caslon-Italic', serif !important;
+  font-family: "Libre-Caslon-Italic", serif !important;
 }
 
 .title .link {
@@ -1384,7 +1384,7 @@ button.shopify-payment-button__button--unbranded {
   font-size: 1.4rem;
   display: flex;
   align-items: center;
-  color: rgb(var(--color-link));
+  color: #a33434;
   margin-left: 0;
   padding-left: 0;
   min-height: 4.4rem;
@@ -1943,7 +1943,7 @@ input[type="checkbox"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(var(--color-foreground));
+  color: #a33434;
   padding: 0;
 }
 

@@ -215,6 +215,7 @@ cart-remove-button .icon-remove {
 
 .cart-items thead th {
   text-transform: uppercase;
+  color: #a33434 !important;
 }
 
 @media screen and (max-width: 749px) {
@@ -228,7 +229,7 @@ cart-remove-button .icon-remove {
   .cart-items thead tr {
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.2);
+    border-bottom: 0.1rem solid #a334345b;
     margin-bottom: 4rem;
   }
 
@@ -276,7 +277,7 @@ cart-remove-button .icon-remove {
   }
 
   .cart-items th {
-    border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+    border-bottom: 0.1rem solid #a334345b;
   }
 
   .cart-items thead th:first-child {
