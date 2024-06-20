@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "rich_text_mwGYeC": {
@@ -13,7 +22,7 @@
         "text_3fpkJB": {
           "type": "text",
           "settings": {
-            "text": "<p>Comprá online y retirá en el local.<br />No contamos con servicio de entrega.<\/p>"
+            "text": "<p>Comprá online y retirá en el local.<br \/>No contamos con servicio de entrega.<\/p>"
           }
         },
         "text_9VDdpf": {
@@ -25,7 +34,7 @@
         "text_3b3J9q": {
           "type": "text",
           "settings": {
-            "text": "<p>TODO  PANES  TORTAS  BOLLERÍA  MERCH<\/p>"
+            "text": "<p>TODO  <a href=\"\/collections\/panes\" title=\"\/collections\/panes\">PANES<\/a>  TORTAS  BOLLERÍA  MERCH<\/p>"
           }
         }
       },
