@@ -17,6 +17,20 @@
   width: 100%;
 }
 
+.rich-text__blocks a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+.rich-text__blocks a:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .rich-text__blocks a {
+    font-size: 0.9em;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .rich-text__wrapper {
     width: 100%;
@@ -36,6 +50,9 @@
   /* .rich-text__blocks :last-child p {
     ACA ACCEDO A EL P DE FILTROS
   } */
+  .rich-text__blocks a:hover {
+    text-decoration: underline;
+  }
 }
 
 @media screen and (min-width: 990px) {
