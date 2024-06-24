@@ -145,9 +145,15 @@
 
     ],
     "blocks": {
+      "17745481618859153576": {
+        "type": "shopify:\/\/apps\/genie-store-pickup\/blocks\/app-embed\/e00f106c-bb7f-4e25-b11d-baff1a328f6b",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "5900226441112829888": {
         "type": "shopify:\/\/apps\/pickup-delivery-date-letmepro\/blocks\/app-embed\/65000196-adf5-4701-8ca2-4f8e714c48f1",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "buy_now_class": ".shopify-payment-button__button,.shopify-payment-button__more-options",
           "lmp_show_on_cart_page": true,
