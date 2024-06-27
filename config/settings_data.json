@@ -172,7 +172,7 @@
         "type": "shopify:\/\/apps\/pickeasy\/blocks\/app-embed\/7e06b047-cfd1-4df7-add1-81e9a842022c",
         "disabled": false,
         "settings": {
-          "enable_network_listeners": false,
+          "enable_network_listeners": true,
           "xhrRequestExactMatch": "",
           "xhrRequestExactMatchTimeout": 500,
           "xhrRequestPartialMatch": "",
