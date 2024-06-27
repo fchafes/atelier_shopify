@@ -147,7 +147,7 @@
     "blocks": {
       "5900226441112829888": {
         "type": "shopify:\/\/apps\/pickup-delivery-date-letmepro\/blocks\/app-embed\/65000196-adf5-4701-8ca2-4f8e714c48f1",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "buy_now_class": ".shopify-payment-button__button,.shopify-payment-button__more-options",
           "lmp_show_on_cart_page": true,
