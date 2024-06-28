@@ -1313,6 +1313,10 @@ button.shopify-payment-button__button--unbranded {
   color: #fff !important;
 }
 
+.button span {
+  color: #fff !important;
+}
+
 .button--tertiary {
   font-size: 1.2rem;
   padding: 1rem 1.5rem;
